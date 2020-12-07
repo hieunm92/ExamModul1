@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function tryRemoteFromArray(arr){
+        arr = [5,5,8,5,3,6,9,15];
+        let arrNew = [];
+        let x = parseInt(prompt('Nhập số nguyên: '));
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] !== x){
+                arrNew.push(arr[i]);
+            }
+        }document.write(arrNew);
+    }
+    tryRemoteFromArray();
+
+
+</script>
+
+</body>
+</html>

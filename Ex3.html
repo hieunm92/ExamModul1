@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isFibonacci(c){
+        c = parseInt(prompt('Nhập vaò số nguyên: '));
+        let a = 0;
+        let b = 1;
+        let count = 1;
+        while (count< c){
+            count= a+b;
+            a = b;
+            b = count;
+            if(count == c){
+                return true;
+            }
+
+        }return false;
+
+    }
+    alert(isFibonacci());
+
+
+</script>
+
+</body>
+</html>
